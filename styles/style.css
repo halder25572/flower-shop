@@ -1,0 +1,79 @@
+/* default css style start */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* google fonts end */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background-color: #FCEEF1;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-text h1 {
+    width: 708px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 96px;
+
+
+}
+.banner .banner-text *{
+    margin-bottom: 30px;
+    /* max-width: 525px; */
+}
+
+.banner .banner-text p {
+    width: 634px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.banner .banner-text button {
+    padding: 20px 43px;
+    width: 179px;
+    height: 64px;
+    background: #E55473;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* css for banner image */
+.banner .banner-img img{
+    width: 100%;
+    align-items: middle;
+}
