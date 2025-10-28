@@ -182,6 +182,7 @@ button {
 /* hot deal css part start */
 .hot-deal {
     background-color: #FEF6F8;
+    margin-top: 128px;
 }
 
 .hot-deal-main {
@@ -244,3 +245,30 @@ button {
     width: 300px;
     height: 300px;
 }
+
+/* newsletter section css part start */
+#newsletter {
+    margin-top: 128px;
+}
+
+.newsletter-main {
+    background-image: url('../images/Rectangle 9.png');
+    padding: 122px 0;
+}
+
+#newsletter .newsletter-main form {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#newsletter .newsletter-main form input {
+    flex-grow: 1;
+    margin-right: 28px;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+}
+
+/* newsletter section css part end */
