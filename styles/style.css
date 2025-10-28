@@ -214,3 +214,33 @@ button {
     width: 318px;
     height: 420px;
 }
+
+/* instagram css part start */
+#instagram-main {
+    margin-top: 118px;
+}
+
+.section-heading h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+}
+
+.section-heading p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 9px;
+}
+
+.section-heading-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+#instagram-main .section-heading-img img {
+    width: 300px;
+    height: 300px;
+}
